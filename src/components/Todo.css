@@ -1,0 +1,32 @@
+li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: black;
+    font-size: 1.2rem;
+}
+
+li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 2px;
+    width: 70px;
+}
+
+li button.check {
+    background-color: #1e11d4;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #1e11d4;
+}
